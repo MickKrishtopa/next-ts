@@ -13,5 +13,34 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background-color: rgb(189, 179, 166);
+  background-color: rgba(0, 255, 42, 0.3);
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+}
+
+ul {
+  padding-left: 30px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
